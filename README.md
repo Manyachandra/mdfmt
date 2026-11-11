@@ -40,13 +40,11 @@ It is designed for editors, documentation pipelines, and pre-commit hooks — no
 ## Project Structure
 
 ```
-mdfmt/
-├── mdfmt.py           # Main module (flat single-module layout)
-├── pyproject.toml     # Packaging and metadata
-├── README.md          # This file
-├── .gitignore
-└── tests/
-    └── test_mdfmt.py  # pytest suite
+.gitignore
+README.md
+mdfmt.py
+pyproject.toml
+tests/test_mdfmt.py
 ```
 
 ## Getting Started
